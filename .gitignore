@@ -1,0 +1,12 @@
+.vscode/
+kubricgen/
+processed_kubricgen/
+
+*.ckpt
+*.pyc
+gradio_output/
+logs/
+output/
+*.safetensors
+*debug.log
+.gradio

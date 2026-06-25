@@ -1,0 +1,25 @@
+Kubric-5D generation code -- third-party notices
+=================================================
+
+This repository bundles third-party components that are licensed separately
+from the Kubric-5D generation code (CC BY-NC 4.0, see the LICENSE file). Those
+components are not covered by the LICENSE file and retain their own terms:
+
+1. Google Research Kubric
+   Location: data-gen/kubric_custom/
+   License:  Apache License 2.0 (see data-gen/kubric_custom/LICENSE)
+   Source:   https://github.com/google-research/kubric
+             Based on commit e140e24e078d5e641c4ac10bf25743059bd059ce, with a
+             local bugfix to avoid race conditions when handling depth maps.
+   Copyright 2023 The Kubric Authors.
+
+2. Blender "Filmic" OpenColorIO configuration and LUTs
+   Location: data-gen/colormanagement/
+   Author:   Troy James Sobotka and contributors (filmic-blender)
+   Source:   https://github.com/sobotka/filmic-blender
+   Notes:    Based on the aces, nuke-default and spi configurations from the
+             OpenColorIO project (Sony Pictures Imageworks). See
+             data-gen/colormanagement/ocio-license.txt. The upstream
+             filmic-blender repository does not ship a formal license file;
+             these assets are distributed publicly for use with Blender.
+             Confirm redistribution terms with legal before public release.

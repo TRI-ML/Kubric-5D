@@ -1,0 +1,23 @@
+OpenColorIO / Filmic color management configuration -- attribution
+==================================================================
+
+The color management configuration in this directory (config.ocio and the
+accompanying .spi1d / .spi3d / .spimtx LUT files) is the "Filmic" configuration
+for Blender, crafted by Troy James Sobotka, with contributions from Guillermo,
+Claudio Rocha, Bassam Kurdali, Eugenio Pignataro, Henri Hebeisen, Jason Clarke,
+Haarm-Peter Duiker, Thomas Mansencal, and Timothy Lottes.
+
+It is based on the aces, nuke-default and spi configurations from the
+OpenColorIO project, developed by Sony Pictures Imageworks.
+
+Sources:
+  Filmic for Blender:  https://github.com/sobotka/filmic-blender
+  OpenColorIO:         https://opencolorio.org/
+
+The config.ocio header refers to this file ("See ocio-license.txt for
+details"). The upstream filmic-blender repository does not currently ship a
+formal license text, and Blender's bundled color-management directory has since
+been reorganized, so a canonical license text could not be reproduced here
+verbatim. These assets are distributed publicly for use with Blender's color
+management system. Please confirm the exact redistribution terms with the
+upstream authors or legal counsel before public release.
