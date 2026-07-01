@@ -103,16 +103,6 @@ If you use this code or the Kubric-5D dataset, please cite AnyView:
 }
 ```
 
-This work builds on Generative Camera Dolly (GCD):
-```
-@article{vanhoorick2024gcd,
-    title={Generative Camera Dolly: Extreme Monocular Dynamic Novel View Synthesis},
-    author={Van Hoorick, Basile and Wu, Rundi and Ozguroglu, Ege and Sargent, Kyle and Liu, Ruoshi and Tokmakov, Pavel and Dave, Achal and Zheng, Changxi and Vondrick, Carl},
-    journal={European Conference on Computer Vision (ECCV)},
-    year={2024}
-}
-```
-
 And the underlying Kubric framework:
 ```
 @inproceedings{greff2022kubric,
@@ -128,4 +118,4 @@ And the underlying Kubric framework:
 - [Kubric](https://github.com/google-research/kubric) (Google Research) for the scene generation framework.
 - [Filmic Blender](https://github.com/sobotka/filmic-blender) (Troy Sobotka) for the color management configuration.
 - [TCOW](https://tcow.cs.columbia.edu/) for the multi-view Kubric scene design that Kubric-4D and Kubric-5D build on.
-- [Generative Camera Dolly (GCD)](https://github.com/basilevh/gcd) (Van Hoorick et al., ECCV 2024), whose Kubric-4D generation pipeline this codebase builds on.
+- [GCD](https://github.com/basilevh/gcd) for the Kubric-4D generation pipeline that this codebase builds on.
